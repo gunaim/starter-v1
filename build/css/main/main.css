@@ -100,6 +100,12 @@ button, button:hover, button:focus {
   src: url("../../fonts/BebasNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/BebasNeue-Bold.woff2") format("woff2"), url("../../fonts/BebasNeue-Bold.woff") format("woff"), url("../../fonts/BebasNeue-Bold.ttf") format("truetype"), url("../../fonts/BebasNeue-Bold.svg#BebasNeue-Bold") format("svg");
   font-weight: 700; }
 
+@font-face {
+  font-family: SofiaPro-Bold;
+  src: url("../../fonts/SofiaPro-Bold.eot");
+  src: url("../../fonts/SofiaPro-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SofiaPro-Bold.woff2") format("woff2"), url("../../fonts/SofiaPro-Bold.woff") format("woff"), url("../../fonts/SofiaPro-Bold.ttf") format("truetype"), url("../../fonts/SofiaPro-Bold.svg#SofiaPro-Bold") format("svg");
+  font-weight: 700; }
+
 .m-0 {
   margin: 0 !important; }
 
@@ -194,6 +200,25 @@ button, button:hover, button:focus {
 .ml-20,
 .mx-20 {
   margin-left: 20px !important; }
+
+.m-25 {
+  margin: 25px !important; }
+
+.mt-25,
+.my-25 {
+  margin-top: 25px !important; }
+
+.mr-25,
+.mx-25 {
+  margin-right: 25px !important; }
+
+.mb-25,
+.my-25 {
+  margin-bottom: 25px !important; }
+
+.ml-25,
+.mx-25 {
+  margin-left: 25px !important; }
 
 .m-30 {
   margin: 30px !important; }
@@ -290,6 +315,25 @@ button, button:hover, button:focus {
 .mx-60 {
   margin-left: 60px !important; }
 
+.m-80 {
+  margin: 80px !important; }
+
+.mt-80,
+.my-80 {
+  margin-top: 80px !important; }
+
+.mr-80,
+.mx-80 {
+  margin-right: 80px !important; }
+
+.mb-80,
+.my-80 {
+  margin-bottom: 80px !important; }
+
+.ml-80,
+.mx-80 {
+  margin-left: 80px !important; }
+
 .p-0 {
   padding: 0 !important; }
 
@@ -384,6 +428,25 @@ button, button:hover, button:focus {
 .pl-20,
 .px-20 {
   padding-left: 20px !important; }
+
+.p-25 {
+  padding: 25px !important; }
+
+.pt-25,
+.py-25 {
+  padding-top: 25px !important; }
+
+.pr-25,
+.px-25 {
+  padding-right: 25px !important; }
+
+.pb-25,
+.py-25 {
+  padding-bottom: 25px !important; }
+
+.pl-25,
+.px-25 {
+  padding-left: 25px !important; }
 
 .p-30 {
   padding: 30px !important; }
@@ -480,6 +543,25 @@ button, button:hover, button:focus {
 .px-60 {
   padding-left: 60px !important; }
 
+.p-80 {
+  padding: 80px !important; }
+
+.pt-80,
+.py-80 {
+  padding-top: 80px !important; }
+
+.pr-80,
+.px-80 {
+  padding-right: 80px !important; }
+
+.pb-80,
+.py-80 {
+  padding-bottom: 80px !important; }
+
+.pl-80,
+.px-80 {
+  padding-left: 80px !important; }
+
 .m-auto {
   margin: auto !important; }
 
@@ -570,6 +652,20 @@ button, button:hover, button:focus {
   .ml-sm-20,
   .mx-sm-20 {
     margin-left: 20px !important; }
+  .m-sm-25 {
+    margin: 25px !important; }
+  .mt-sm-25,
+  .my-sm-25 {
+    margin-top: 25px !important; }
+  .mr-sm-25,
+  .mx-sm-25 {
+    margin-right: 25px !important; }
+  .mb-sm-25,
+  .my-sm-25 {
+    margin-bottom: 25px !important; }
+  .ml-sm-25,
+  .mx-sm-25 {
+    margin-left: 25px !important; }
   .m-sm-30 {
     margin: 30px !important; }
   .mt-sm-30,
@@ -640,6 +736,20 @@ button, button:hover, button:focus {
   .ml-sm-60,
   .mx-sm-60 {
     margin-left: 60px !important; }
+  .m-sm-80 {
+    margin: 80px !important; }
+  .mt-sm-80,
+  .my-sm-80 {
+    margin-top: 80px !important; }
+  .mr-sm-80,
+  .mx-sm-80 {
+    margin-right: 80px !important; }
+  .mb-sm-80,
+  .my-sm-80 {
+    margin-bottom: 80px !important; }
+  .ml-sm-80,
+  .mx-sm-80 {
+    margin-left: 80px !important; }
   .p-sm-0 {
     padding: 0 !important; }
   .pt-sm-0,
@@ -710,6 +820,20 @@ button, button:hover, button:focus {
   .pl-sm-20,
   .px-sm-20 {
     padding-left: 20px !important; }
+  .p-sm-25 {
+    padding: 25px !important; }
+  .pt-sm-25,
+  .py-sm-25 {
+    padding-top: 25px !important; }
+  .pr-sm-25,
+  .px-sm-25 {
+    padding-right: 25px !important; }
+  .pb-sm-25,
+  .py-sm-25 {
+    padding-bottom: 25px !important; }
+  .pl-sm-25,
+  .px-sm-25 {
+    padding-left: 25px !important; }
   .p-sm-30 {
     padding: 30px !important; }
   .pt-sm-30,
@@ -780,6 +904,20 @@ button, button:hover, button:focus {
   .pl-sm-60,
   .px-sm-60 {
     padding-left: 60px !important; }
+  .p-sm-80 {
+    padding: 80px !important; }
+  .pt-sm-80,
+  .py-sm-80 {
+    padding-top: 80px !important; }
+  .pr-sm-80,
+  .px-sm-80 {
+    padding-right: 80px !important; }
+  .pb-sm-80,
+  .py-sm-80 {
+    padding-bottom: 80px !important; }
+  .pl-sm-80,
+  .px-sm-80 {
+    padding-left: 80px !important; }
   .m-sm-auto {
     margin: auto !important; }
   .mt-sm-auto,
@@ -866,6 +1004,20 @@ button, button:hover, button:focus {
   .ml-md-20,
   .mx-md-20 {
     margin-left: 20px !important; }
+  .m-md-25 {
+    margin: 25px !important; }
+  .mt-md-25,
+  .my-md-25 {
+    margin-top: 25px !important; }
+  .mr-md-25,
+  .mx-md-25 {
+    margin-right: 25px !important; }
+  .mb-md-25,
+  .my-md-25 {
+    margin-bottom: 25px !important; }
+  .ml-md-25,
+  .mx-md-25 {
+    margin-left: 25px !important; }
   .m-md-30 {
     margin: 30px !important; }
   .mt-md-30,
@@ -936,6 +1088,20 @@ button, button:hover, button:focus {
   .ml-md-60,
   .mx-md-60 {
     margin-left: 60px !important; }
+  .m-md-80 {
+    margin: 80px !important; }
+  .mt-md-80,
+  .my-md-80 {
+    margin-top: 80px !important; }
+  .mr-md-80,
+  .mx-md-80 {
+    margin-right: 80px !important; }
+  .mb-md-80,
+  .my-md-80 {
+    margin-bottom: 80px !important; }
+  .ml-md-80,
+  .mx-md-80 {
+    margin-left: 80px !important; }
   .p-md-0 {
     padding: 0 !important; }
   .pt-md-0,
@@ -1006,6 +1172,20 @@ button, button:hover, button:focus {
   .pl-md-20,
   .px-md-20 {
     padding-left: 20px !important; }
+  .p-md-25 {
+    padding: 25px !important; }
+  .pt-md-25,
+  .py-md-25 {
+    padding-top: 25px !important; }
+  .pr-md-25,
+  .px-md-25 {
+    padding-right: 25px !important; }
+  .pb-md-25,
+  .py-md-25 {
+    padding-bottom: 25px !important; }
+  .pl-md-25,
+  .px-md-25 {
+    padding-left: 25px !important; }
   .p-md-30 {
     padding: 30px !important; }
   .pt-md-30,
@@ -1076,6 +1256,20 @@ button, button:hover, button:focus {
   .pl-md-60,
   .px-md-60 {
     padding-left: 60px !important; }
+  .p-md-80 {
+    padding: 80px !important; }
+  .pt-md-80,
+  .py-md-80 {
+    padding-top: 80px !important; }
+  .pr-md-80,
+  .px-md-80 {
+    padding-right: 80px !important; }
+  .pb-md-80,
+  .py-md-80 {
+    padding-bottom: 80px !important; }
+  .pl-md-80,
+  .px-md-80 {
+    padding-left: 80px !important; }
   .m-md-auto {
     margin: auto !important; }
   .mt-md-auto,
@@ -1162,6 +1356,20 @@ button, button:hover, button:focus {
   .ml-lg-20,
   .mx-lg-20 {
     margin-left: 20px !important; }
+  .m-lg-25 {
+    margin: 25px !important; }
+  .mt-lg-25,
+  .my-lg-25 {
+    margin-top: 25px !important; }
+  .mr-lg-25,
+  .mx-lg-25 {
+    margin-right: 25px !important; }
+  .mb-lg-25,
+  .my-lg-25 {
+    margin-bottom: 25px !important; }
+  .ml-lg-25,
+  .mx-lg-25 {
+    margin-left: 25px !important; }
   .m-lg-30 {
     margin: 30px !important; }
   .mt-lg-30,
@@ -1232,6 +1440,20 @@ button, button:hover, button:focus {
   .ml-lg-60,
   .mx-lg-60 {
     margin-left: 60px !important; }
+  .m-lg-80 {
+    margin: 80px !important; }
+  .mt-lg-80,
+  .my-lg-80 {
+    margin-top: 80px !important; }
+  .mr-lg-80,
+  .mx-lg-80 {
+    margin-right: 80px !important; }
+  .mb-lg-80,
+  .my-lg-80 {
+    margin-bottom: 80px !important; }
+  .ml-lg-80,
+  .mx-lg-80 {
+    margin-left: 80px !important; }
   .p-lg-0 {
     padding: 0 !important; }
   .pt-lg-0,
@@ -1302,6 +1524,20 @@ button, button:hover, button:focus {
   .pl-lg-20,
   .px-lg-20 {
     padding-left: 20px !important; }
+  .p-lg-25 {
+    padding: 25px !important; }
+  .pt-lg-25,
+  .py-lg-25 {
+    padding-top: 25px !important; }
+  .pr-lg-25,
+  .px-lg-25 {
+    padding-right: 25px !important; }
+  .pb-lg-25,
+  .py-lg-25 {
+    padding-bottom: 25px !important; }
+  .pl-lg-25,
+  .px-lg-25 {
+    padding-left: 25px !important; }
   .p-lg-30 {
     padding: 30px !important; }
   .pt-lg-30,
@@ -1372,6 +1608,20 @@ button, button:hover, button:focus {
   .pl-lg-60,
   .px-lg-60 {
     padding-left: 60px !important; }
+  .p-lg-80 {
+    padding: 80px !important; }
+  .pt-lg-80,
+  .py-lg-80 {
+    padding-top: 80px !important; }
+  .pr-lg-80,
+  .px-lg-80 {
+    padding-right: 80px !important; }
+  .pb-lg-80,
+  .py-lg-80 {
+    padding-bottom: 80px !important; }
+  .pl-lg-80,
+  .px-lg-80 {
+    padding-left: 80px !important; }
   .m-lg-auto {
     margin: auto !important; }
   .mt-lg-auto,
@@ -1458,6 +1708,20 @@ button, button:hover, button:focus {
   .ml-xl-20,
   .mx-xl-20 {
     margin-left: 20px !important; }
+  .m-xl-25 {
+    margin: 25px !important; }
+  .mt-xl-25,
+  .my-xl-25 {
+    margin-top: 25px !important; }
+  .mr-xl-25,
+  .mx-xl-25 {
+    margin-right: 25px !important; }
+  .mb-xl-25,
+  .my-xl-25 {
+    margin-bottom: 25px !important; }
+  .ml-xl-25,
+  .mx-xl-25 {
+    margin-left: 25px !important; }
   .m-xl-30 {
     margin: 30px !important; }
   .mt-xl-30,
@@ -1528,6 +1792,20 @@ button, button:hover, button:focus {
   .ml-xl-60,
   .mx-xl-60 {
     margin-left: 60px !important; }
+  .m-xl-80 {
+    margin: 80px !important; }
+  .mt-xl-80,
+  .my-xl-80 {
+    margin-top: 80px !important; }
+  .mr-xl-80,
+  .mx-xl-80 {
+    margin-right: 80px !important; }
+  .mb-xl-80,
+  .my-xl-80 {
+    margin-bottom: 80px !important; }
+  .ml-xl-80,
+  .mx-xl-80 {
+    margin-left: 80px !important; }
   .p-xl-0 {
     padding: 0 !important; }
   .pt-xl-0,
@@ -1598,6 +1876,20 @@ button, button:hover, button:focus {
   .pl-xl-20,
   .px-xl-20 {
     padding-left: 20px !important; }
+  .p-xl-25 {
+    padding: 25px !important; }
+  .pt-xl-25,
+  .py-xl-25 {
+    padding-top: 25px !important; }
+  .pr-xl-25,
+  .px-xl-25 {
+    padding-right: 25px !important; }
+  .pb-xl-25,
+  .py-xl-25 {
+    padding-bottom: 25px !important; }
+  .pl-xl-25,
+  .px-xl-25 {
+    padding-left: 25px !important; }
   .p-xl-30 {
     padding: 30px !important; }
   .pt-xl-30,
@@ -1668,6 +1960,20 @@ button, button:hover, button:focus {
   .pl-xl-60,
   .px-xl-60 {
     padding-left: 60px !important; }
+  .p-xl-80 {
+    padding: 80px !important; }
+  .pt-xl-80,
+  .py-xl-80 {
+    padding-top: 80px !important; }
+  .pr-xl-80,
+  .px-xl-80 {
+    padding-right: 80px !important; }
+  .pb-xl-80,
+  .py-xl-80 {
+    padding-bottom: 80px !important; }
+  .pl-xl-80,
+  .px-xl-80 {
+    padding-left: 80px !important; }
   .m-xl-auto {
     margin: auto !important; }
   .mt-xl-auto,
@@ -1688,7 +1994,13 @@ body {
   font-size: 1.6rem;
   font-family: HelveticaNeue-Regular, Helvetica, Arial, sans-serif;
   color: #666666;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100% !important; }
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
 
 a, a:hover, a:focus {
   color: #214D7A; }
@@ -1976,5 +2288,35 @@ textarea {
 
 ::-webkit-scrollbar-corner {
   background-color: transparent; }
+
+.page-title {
+  font-size: 3.6rem;
+  font-family: SofiaPro-Bold;
+  color: #2f16169c;
+  margin-bottom: 30px; }
+
+.picture {
+  display: inline-block;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+  margin-bottom: 15px; }
+
+.picture img {
+  width: 100%;
+  height: 100%; }
+
+.p-15 {
+  padding: 15px; }
+
+.title {
+  color: #4375D9;
+  text-decoration: none;
+  font-family: SofiaPro-Bold;
+  font-size: 2.2rem; }
 
 /*!Gunay Mammadli July 2019  https://github.com/GunaySeyidahmed  gunay.seyidehmedqizi@gmail.com */

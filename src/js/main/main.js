@@ -1,5 +1,44 @@
 $(document).ready(function () {
 
+    var getMax = function () {
+        return $(document).height() - $(window).height();
+    }
+
+    var getValue = function () {
+        return $(window).scrollTop();
+    }
+
+    if ('max' in document.createElement('progress')) {
+        var progressBar = $('progress');
+        progressBar.attr({max: getMax()});
+        $(document).scroll(function () {
+            progressBar.attr({value: getValue()});
+        });
+
+        $(window).resize(function () {
+            progressBar.attr({max: getMax(), value: getValue()});
+        });
+    } else {
+        var progressBar = $('.progress-bar'),
+            max = getMax(),
+            value, width;
+        var getWidth = function () {
+            value = getValue();
+            width = (value / max) * 100;
+            width = width + '%';
+            return width;
+        }
+        var setWidth = function () {
+            progressBar.css({width: getWidth()});
+        }
+
+        $(document).on('scroll', setWidth);
+        $(window).on('resize', function () {
+            max = getMax();
+            setWidth();
+        });
+    }
+
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
         $('.selectpicker').selectpicker('mobile');
     }
@@ -140,23 +179,23 @@ $(document).ready(function () {
     hiddenImg.attr('src', hoverSrc).insertBefore(defaultImg).show();
 
 
-    $('.time').datetimepicker({
-        format: 'HH:mm',
-        defaultDate: moment(),
-        icons: {
-            up: "material-icons",
-            down: "material-icons"
-        }
-    });
+    // $('.time').datetimepicker({
+    //     format: 'HH:mm',
+    //     defaultDate: moment(),
+    //     icons: {
+    //         up: "material-icons",
+    //         down: "material-icons"
+    //     }
+    // });
 
-    $('.date').datetimepicker({
-        format: 'DD.MM.YY',
-        defaultDate: moment(),
-        icons: {
-            previous: 'material-icons',
-            next: 'material-icons'
-        }
-    });
+    // $('.date').datetimepicker({
+    //     format: 'DD.MM.YY',
+    //     defaultDate: moment(),
+    //     icons: {
+    //         previous: 'material-icons',
+    //         next: 'material-icons'
+    //     }
+    // });
 
 
     $('input.only-number').bind('keypress', function (e) {

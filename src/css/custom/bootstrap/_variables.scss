@@ -8,21 +8,21 @@ $spacer: 5px !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge(
-  (
-    0: 0,
-    5: $spacer,
-
-
-    10: ($spacer * 2),
-    15: ($spacer * 3),
-    20: ($spacer * 4),
-    30: ($spacer * 6),
-    35: ($spacer * 7),
-    40: ($spacer * 8),
-    50: ($spacer * 10),
-    60: ($spacer * 12)
-  ),
-  $spacers
+                (
+                        0: 0,
+                        5: $spacer,
+                        10: ($spacer * 2),
+                        15: ($spacer * 3),
+                        20: ($spacer * 4),
+                        25: ($spacer * 5),
+                        30: ($spacer * 6),
+                        35: ($spacer * 7),
+                        40: ($spacer * 8),
+                        50: ($spacer * 10),
+                        60: ($spacer * 12),
+                        80: ($spacer * 16)
+                ),
+                $spacers
 );
 
 
@@ -32,9 +32,9 @@ $spacers: map-merge(
 // adapting to different screen sizes, for use in media queries.
 
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
 ) !default;

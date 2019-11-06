@@ -3,6 +3,12 @@ body {
   font-family: $HN, Helvetica, Arial, sans-serif;
   color: #666666;
   background-color: #fff;
+  height: 100% !important;
+  //height: 4000px !important;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 a, a:hover, a:focus {
@@ -328,4 +334,34 @@ textarea {
 
 ::-webkit-scrollbar-corner {
   background-color: transparent;
-} 
+}
+.page-title{
+  font-size: 3.6rem;
+  font-family: $S-B;
+  color: #2f16169c;
+  margin-bottom: 30px;
+}
+.picture {
+  //width: 520px;
+  //height: 360px;
+  display: inline-block;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .16);
+  margin-bottom: 15px;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.p-15{
+  padding: 15px;
+}
+.title{
+  color: #4375D9;
+  text-decoration: none;
+  font-family: $S-B;
+  font-size: 2.2rem;
+}
